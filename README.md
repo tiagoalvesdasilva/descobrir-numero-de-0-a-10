@@ -1,6 +1,6 @@
 # Descobrir numero de 0 a 10
 
-<img style="height: 450px;" src="img/Capturar.PNG" alt="">
+<img style="height: 450px;" src="src/Capturar.PNG" alt="">
 
 Deploy: 
 <div style="display: inline_block"><br/>
