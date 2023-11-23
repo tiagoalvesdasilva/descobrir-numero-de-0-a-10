@@ -18,10 +18,10 @@ function verrifyNumber(){
         situacao = ('invalido')
     } else if( bet > number){
         temp ++;
-        situacao = (`O número digitado é MAIOR`)
+        situacao = (`O numero escondido é MENOR`)
     } else if (bet < number){
         temp++;
-        situacao = ('O número digitado é MENOR')
+        situacao = ('O número escondido é MAIOR')
     } else{
         situacao = (`✅ Parabéns você acertou!  Com ${temp} erros`)
     }

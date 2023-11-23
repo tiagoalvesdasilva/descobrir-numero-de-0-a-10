@@ -17,11 +17,11 @@ function verrifyNumber() {
     }
     else if (bet > number) {
         temp++;
-        situacao = ("O n\u00FAmero digitado \u00E9 MAIOR");
+        situacao = ("O numero escondido \u00E9 MENOR");
     }
     else if (bet < number) {
         temp++;
-        situacao = ('O número digitado é MENOR');
+        situacao = ('O número escondido é MAIOR');
     }
     else {
         situacao = ("\u2705 Parab\u00E9ns voc\u00EA acertou!  Com ".concat(temp, " erros"));
